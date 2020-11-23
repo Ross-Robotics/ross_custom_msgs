@@ -1,0 +1,3 @@
+rr_custom_msgs/Mode set_mode
+---
+string response
