@@ -1,0 +1,9 @@
+#goal
+bool start_docking
+---
+#result
+bool docking_sucess
+---
+#feedback
+float32 distance_to_charger
+float32 angle_to_charger
