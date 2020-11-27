@@ -20,6 +20,7 @@ add_action_files(
     DIRECTORY action
     FILES   XPositionGoal.action
             Docking.action
+            TreeRequest.action
 )
 
 generate_messages(

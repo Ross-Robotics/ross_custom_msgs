@@ -1,0 +1,9 @@
+#goal definition
+string tree_path
+---
+#result definition
+bool success
+---
+#feedback
+#TODO: use loggers to fill this information
+string status
