@@ -9,6 +9,8 @@ find_package(catkin REQUIRED
 add_message_files(
   FILES
   Mode.msg
+  VescState.msg
+  VescStateStamped.msg
 )
 
 add_service_files(
