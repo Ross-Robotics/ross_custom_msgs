@@ -1,0 +1,4 @@
+string name
+rr_custom_msgs/TaskWaypoint[] tasklist
+---
+bool success

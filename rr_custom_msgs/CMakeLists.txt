@@ -11,11 +11,14 @@ add_message_files(
   Mode.msg
   VescState.msg
   VescStateStamped.msg
+  TaskWaypoint.msg
+  TaskWaypointList.msg
 )
 
 add_service_files(
   FILES
   SetMode.srv
+  BuildBT.srv
 )
 
 add_action_files(
