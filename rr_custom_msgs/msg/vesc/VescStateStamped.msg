@@ -1,4 +1,4 @@
 # Timestamped VESC open source motor controller state (telemetry)
 
 Header  header
-VescState state
+rr_custom_msgs/VescState state

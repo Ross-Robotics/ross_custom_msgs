@@ -8,32 +8,15 @@ find_package(catkin REQUIRED
 )
 
 add_message_files(
-  FILES
-  Mode.msg
-  VescState.msg
-  VescStateStamped.msg
-  TaskWaypoint.msg
-  TaskWaypointList.msg
-  rr_machine_latency.msg
-  StringArray.msg
+  DIRECTORY msg
 )
 
 add_service_files(
-  FILES
-  SetMode.srv
-  BuildBT.srv
-  SpawnBox.srv
-  SpawnBoxRandom.srv
-  rr_network_latency.srv
-  String.srv
-  RemoveFile.srv
+  DIRECTORY srv
 )
 
 add_action_files(
-    DIRECTORY action
-    FILES   XPositionGoal.action
-            Docking.action
-            TreeRequest.action
+  DIRECTORY action
 )
 
 generate_messages(
