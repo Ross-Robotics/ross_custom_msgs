@@ -15,6 +15,7 @@ add_message_files(
   TaskWaypoint.msg
   TaskWaypointList.msg
   rr_machine_latency.msg
+  StringArray.msg
 )
 
 add_service_files(
@@ -24,6 +25,8 @@ add_service_files(
   SpawnBox.srv
   SpawnBoxRandom.srv
   rr_network_latency.srv
+  String.srv
+  RemoveFile.srv
 )
 
 add_action_files(
