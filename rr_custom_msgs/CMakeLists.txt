@@ -20,6 +20,8 @@ add_service_files(
   FILES
   SetMode.srv
   BuildBT.srv
+  SpawnBox.srv
+  SpawnBoxRandom.srv
 )
 
 add_action_files(
