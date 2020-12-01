@@ -14,6 +14,7 @@ add_message_files(
   VescStateStamped.msg
   TaskWaypoint.msg
   TaskWaypointList.msg
+  rr_machine_latency.msg
 )
 
 add_service_files(
@@ -22,6 +23,7 @@ add_service_files(
   BuildBT.srv
   SpawnBox.srv
   SpawnBoxRandom.srv
+  rr_network_latency.srv
 )
 
 add_action_files(
