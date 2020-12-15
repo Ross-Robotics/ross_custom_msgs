@@ -1,0 +1,6 @@
+float32 x_start
+float32 y_start
+float32 area_len
+uint8 count
+---
+bool success

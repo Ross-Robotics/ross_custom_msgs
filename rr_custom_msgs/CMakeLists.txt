@@ -4,26 +4,41 @@ project(rr_custom_msgs)
 find_package(catkin REQUIRED
     actionlib_msgs
     message_generation
+    geometry_msgs
 )
 
 add_message_files(
-  FILES
-  Mode.msg
+  DIRECTORY msg
+
+  FILES rr_machine_latency.msg
+        StringArray.msg
+        TaskWaypoint.msg
+        TaskWaypointList.msg
+        VescState.msg
+        VescStateStamped.msg
+        Mode.msg
 )
 
 add_service_files(
-  FILES
-  SetMode.srv
+  DIRECTORY srv
+  FILES rr_diagnostics/rr_network_latency.srv
+        rr_gazebo/SpawnBox.srv
+        rr_gazebo/SpawnBoxRandom.srv
+        rr_node_tools/RemoveFile.srv
+        rr_node_tools/String.srv
+        rr_viz/BuildBT.srv
+        SetMode.srv
 )
 
 add_action_files(
-    DIRECTORY action
-    FILES   XPositionGoal.action
-            Docking.action
+  DIRECTORY action
+  FILES db/XPositionGoal.action
+        envirobot/Docking.action
+        rr_behavior_trees/TreeRequest.action
 )
 
 generate_messages(
-  DEPENDENCIES actionlib_msgs std_msgs
+  DEPENDENCIES actionlib_msgs std_msgs geometry_msgs rr_custom_msgs
 )
 
 catkin_package(

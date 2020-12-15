@@ -1,0 +1,10 @@
+Header header
+string ip
+string name
+string[] nodes
+int32 buffer_size_s
+float32 avg_ms
+float32 max_ms
+float32 min_ms
+int32 dropped
+float32 drop_rate
