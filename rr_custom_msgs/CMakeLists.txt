@@ -32,7 +32,7 @@ add_service_files(
 
 add_action_files(
   DIRECTORY action
-  FILES db/XPositionGoal.action
+  FILES db/ToXPosition.action
         envirobot/Docking.action
         rr_behavior_trees/TreeRequest.action
 )
