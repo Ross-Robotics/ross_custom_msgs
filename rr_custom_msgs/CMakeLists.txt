@@ -35,6 +35,8 @@ add_action_files(
   FILES db/ToXPosition.action
         envirobot/Docking.action
         rr_behavior_trees/TreeRequest.action
+        rr_2d_nav/RecordPath.action
+        rr_2d_nav/TrackPath.action
 )
 
 generate_messages(
