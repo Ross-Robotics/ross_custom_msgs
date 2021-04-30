@@ -1,0 +1,10 @@
+#goal
+string file_path # set empty if declaring file path using a param
+---
+#result definition
+nav_msgs/Path final_path
+float32 distance
+int32 number_of_points
+---
+#feedback
+nav_msgs/Path path

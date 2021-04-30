@@ -5,6 +5,7 @@ find_package(catkin REQUIRED
     actionlib_msgs
     message_generation
     geometry_msgs
+    nav_msgs
 )
 
 add_message_files(
@@ -17,6 +18,7 @@ add_message_files(
         VescState.msg
         VescStateStamped.msg
         Mode.msg
+        Float32Stamped.msg
 )
 
 add_service_files(
@@ -35,10 +37,12 @@ add_action_files(
   FILES db/ToXPosition.action
         envirobot/Docking.action
         rr_behavior_trees/TreeRequest.action
+        rr_2d_nav/RecordPath.action
+        rr_2d_nav/TrackPath.action
 )
 
 generate_messages(
-  DEPENDENCIES actionlib_msgs std_msgs geometry_msgs rr_custom_msgs
+  DEPENDENCIES actionlib_msgs std_msgs geometry_msgs nav_msgs rr_custom_msgs
 )
 
 catkin_package(

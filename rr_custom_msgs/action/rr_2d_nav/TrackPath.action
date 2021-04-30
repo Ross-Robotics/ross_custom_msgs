@@ -1,0 +1,10 @@
+#goal
+string file_path
+---
+#result definition
+string message
+bool success
+---
+#feedback
+uint16 current_wp_id
+int16 last_cleared_via_point
