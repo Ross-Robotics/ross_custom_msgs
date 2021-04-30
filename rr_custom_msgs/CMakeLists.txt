@@ -19,6 +19,7 @@ add_message_files(
         VescStateStamped.msg
         Mode.msg
         Float32Stamped.msg
+        DoseRate.msg
 )
 
 add_service_files(
