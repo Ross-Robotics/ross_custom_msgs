@@ -1,3 +1,4 @@
 rr_custom_msgs/Mode set_mode
 ---
-string response
+bool success
+string message
