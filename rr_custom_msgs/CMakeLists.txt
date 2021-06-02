@@ -21,6 +21,7 @@ add_message_files(
         Float32Stamped.msg
         DoseRate.msg
         JrcControl.msg
+        JrcArm.msg
 )
 
 add_service_files(
