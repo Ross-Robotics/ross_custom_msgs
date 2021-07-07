@@ -1,1 +1,1 @@
-int32[6] arm_velocities
+float32[6] arm_velocities
