@@ -1,4 +1,4 @@
-rr_custom_msgs/Mode set_mode
+int32 data
 ---
 bool success
 string message
