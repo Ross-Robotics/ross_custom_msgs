@@ -19,6 +19,7 @@ add_message_files(
         VescStateStamped.msg
         Mode.msg
         Float32Stamped.msg
+        Clock.msg
 )
 
 add_service_files(
@@ -28,6 +29,7 @@ add_service_files(
         rr_gazebo/SpawnBoxRandom.srv
         rr_node_tools/RemoveFile.srv
         rr_node_tools/String.srv
+        rr_node_tools/Int32.srv
         rr_viz/BuildBT.srv
         SetMode.srv
 )
