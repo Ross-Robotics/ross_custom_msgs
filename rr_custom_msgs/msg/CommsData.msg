@@ -1,0 +1,9 @@
+Header header
+int64 tx_packets
+int64 tx_retries
+int64 tx_failed
+int16 signal
+int16 signal_avg
+float32 tx_bitrate
+float32 rx_bitrate
+float32 throughput
