@@ -20,6 +20,9 @@ add_message_files(
         Mode.msg
         Float32Stamped.msg
         Clock.msg
+        DoseRate.msg
+        RobotControl.msg
+        ArmControl.msg
 )
 
 add_service_files(
