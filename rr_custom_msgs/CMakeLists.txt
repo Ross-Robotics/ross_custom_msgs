@@ -23,6 +23,7 @@ add_message_files(
         DoseRate.msg
         RobotControl.msg
         ArmControl.msg
+        CommsData.msg
 )
 
 add_service_files(
