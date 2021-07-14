@@ -24,6 +24,8 @@ add_message_files(
         RobotControl.msg
         ArmControl.msg
         CommsData.msg
+        Ping.msg
+
 )
 
 add_service_files(
