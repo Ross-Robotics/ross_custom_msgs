@@ -47,6 +47,7 @@ add_action_files(
         rr_behavior_trees/TreeRequest.action
         rr_2d_nav/RecordPath.action
         rr_2d_nav/TrackPath.action
+        g_arm/GoToHome.action
 )
 
 generate_messages(
