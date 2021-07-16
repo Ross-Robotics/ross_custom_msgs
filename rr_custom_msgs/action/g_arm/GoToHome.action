@@ -1,0 +1,8 @@
+#goal
+bool go_to_home # set empty if declaring file path using a param
+---
+#result definition
+bool finished
+---
+#feedback
+bool in_progress
