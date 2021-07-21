@@ -35,7 +35,7 @@ add_service_files(
         rr_gazebo/SpawnBoxRandom.srv
         rr_node_tools/RemoveFile.srv
         rr_node_tools/String.srv
-        rr_node_tools/Int32.srv
+        rr_node_tools/Uint32.srv
         rr_viz/BuildBT.srv
         SetMode.srv
 )
